@@ -15,6 +15,9 @@
 		91E28D95239748F600E1DAA0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D94239748F600E1DAA0 /* ListView.swift */; };
 		91E28D972397490100E1DAA0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D962397490000E1DAA0 /* RowView.swift */; };
 		91E28D992397491E00E1DAA0 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D982397491E00E1DAA0 /* FontView.swift */; };
+		91E28D9C2397590C00E1DAA0 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D9B2397590C00E1DAA0 /* Font.swift */; };
+		91E28D9F23975A0B00E1DAA0 /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E28D9E23975A0B00E1DAA0 /* fonts.json */; };
+		91E28DA223975A3200E1DAA0 /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28DA123975A3200E1DAA0 /* LoadData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		91E28D94239748F600E1DAA0 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		91E28D962397490000E1DAA0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		91E28D982397491E00E1DAA0 /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		91E28D9B2397590C00E1DAA0 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		91E28D9E23975A0B00E1DAA0 /* fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
+		91E28DA123975A3200E1DAA0 /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 		91E28D7E2397483800E1DAA0 /* Project 4 Rosenlof Ross */ = {
 			isa = PBXGroup;
 			children = (
+				91E28DA023975A2600E1DAA0 /* Helper Files */,
+				91E28D9D239759AE00E1DAA0 /* JSON Files */,
+				91E28D9A239758F500E1DAA0 /* Model */,
 				91E28D932397489E00E1DAA0 /* Views */,
 				91E28D7F2397483800E1DAA0 /* AppDelegate.swift */,
 				91E28D812397483800E1DAA0 /* SceneDelegate.swift */,
@@ -87,6 +96,30 @@
 				91E28D982397491E00E1DAA0 /* FontView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		91E28D9A239758F500E1DAA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91E28D9B2397590C00E1DAA0 /* Font.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91E28D9D239759AE00E1DAA0 /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E28D9E23975A0B00E1DAA0 /* fonts.json */,
+			);
+			path = "JSON Files";
+			sourceTree = "<group>";
+		};
+		91E28DA023975A2600E1DAA0 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E28DA123975A3200E1DAA0 /* LoadData.swift */,
+			);
+			path = "Helper Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E28D9F23975A0B00E1DAA0 /* fonts.json in Resources */,
 				91E28D8C2397483900E1DAA0 /* LaunchScreen.storyboard in Resources */,
 				91E28D892397483900E1DAA0 /* Preview Assets.xcassets in Resources */,
 				91E28D862397483900E1DAA0 /* Assets.xcassets in Resources */,
@@ -161,7 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E28D95239748F600E1DAA0 /* ListView.swift in Sources */,
+				91E28DA223975A3200E1DAA0 /* LoadData.swift in Sources */,
 				91E28D972397490100E1DAA0 /* RowView.swift in Sources */,
+				91E28D9C2397590C00E1DAA0 /* Font.swift in Sources */,
 				91E28D802397483800E1DAA0 /* AppDelegate.swift in Sources */,
 				91E28D822397483800E1DAA0 /* SceneDelegate.swift in Sources */,
 				91E28D992397491E00E1DAA0 /* FontView.swift in Sources */,

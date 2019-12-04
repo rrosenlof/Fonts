@@ -11,10 +11,11 @@ import SwiftUI
 struct FontView: View {
     @State private var fontAttribute = 0
     @State private var fontSize = 0.0
+    var font: Font
     
     var body: some View {
         ScrollView {
-            Text("Font Name")
+            Text(font.full_name)
             VStack {
                 Text("Attributes")
                 Picker(selection: $fontAttribute, label: Text("Font Attribute")) {
@@ -30,11 +31,12 @@ struct FontView: View {
             TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
 
         }
+//        navigationBarTitle()
     }
 }
 
 struct FontView_Previews: PreviewProvider {
     static var previews: some View {
-        FontView()
+        FontView(font: fontModel[0])
     }
 }

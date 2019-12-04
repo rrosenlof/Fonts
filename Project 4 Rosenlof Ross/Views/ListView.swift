@@ -11,9 +11,9 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         NavigationView {
-            List() {
-                NavigationLink(destination: FontView()) {
-                    RowView()
+            List(fontModel) { f in
+                NavigationLink(destination: FontView(font: f)) {
+                    RowView(font: f)
                 }
             }
         }

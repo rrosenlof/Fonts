@@ -9,15 +9,17 @@
 import SwiftUI
 
 struct RowView: View {
+    var font: Font
+    
     var body: some View {
         HStack {
-            Text("Font Name")
+            Text(font.full_name)
         }
     }
 }
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView()
+        RowView(font: fontModel[0])
     }
 }
