@@ -12,7 +12,7 @@ struct FontView: View {
     @State private var fontAttribute = 0
     @State private var fontSize: CGFloat = 16.0
     var customFont: CustomFont
-    @State private var customText = ""
+    @State private var customText = "Enter Your Text Here"
     
     var minFontSize: CGFloat = 12.0
     var maxFontSize: CGFloat = 56.0
@@ -51,7 +51,7 @@ struct FontView: View {
                 }
                 
                 
-                TextField("Your Text Here", text: $customText)
+                TextField("", text: $customText)
                     .font(.custom("\(customFont.ttf_name)", size: fontSize))
                     
                     .textFieldStyle(RoundedBorderTextFieldStyle())
