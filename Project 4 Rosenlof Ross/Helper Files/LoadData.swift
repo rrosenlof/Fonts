@@ -8,7 +8,7 @@
 
 import Foundation
     
-var fontModel: [Font] = load("fonts.json")
+var fontModel: [CustomFont] = load("fonts.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

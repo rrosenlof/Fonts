@@ -12,8 +12,8 @@ struct ListView: View {
     var body: some View {
         NavigationView {
             List(fontModel) { f in
-                NavigationLink(destination: FontView(font: f)) {
-                    RowView(font: f)
+                NavigationLink(destination: FontView(customFont: f)) {
+                    RowView(customFont: f)
                 }
             }
         }

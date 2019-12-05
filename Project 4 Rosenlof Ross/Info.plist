@@ -2,6 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Regular.ttf</string>
+		<string>Baskervville-Regular.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Calistoga-Regular.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
+		<string>IbarraRealNova-Regular.ttf</string>
+		<string>SourceSansPro-Regular.ttf</string>
+		<string>Oswald-Regular.ttf</string>
+		<string>Raleway-Regular.ttf</string>
+		<string>RobotoMono-Regular.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Merriweather-Regular.ttf</string>
+		<string>RobotoSlab-Regular.ttf</string>
+		<string>NotoSans-Regular.ttf</string>
+		<string>Lobster-Regular.ttf</string>
+		<string>PTSans-Regular.ttf</string>
+		<string>Ubuntu-Regular.ttf</string>
+		<string>PlayfairDisplay-Regular.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

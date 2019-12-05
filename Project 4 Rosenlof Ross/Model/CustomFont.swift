@@ -8,10 +8,11 @@
 
 import SwiftUI
 
-struct Font: Identifiable, Codable {
+struct CustomFont: Identifiable, Codable {
     var id: Int
     var full_name: String
     var short_name: String
+    var ttf_name: String
     var category: String
     
     // url base: https://fonts.google.com/specimen/

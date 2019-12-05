@@ -9,17 +9,18 @@
 import SwiftUI
 
 struct RowView: View {
-    var font: Font
+    var customFont: CustomFont
     
     var body: some View {
         HStack {
-            Text(font.full_name)
+            Text(customFont.full_name)
+                .font(.custom(customFont.ttf_name, size: 18))
         }
     }
 }
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(font: fontModel[0])
+        RowView(customFont: fontModel[0])
     }
 }
