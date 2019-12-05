@@ -14,29 +14,50 @@ struct FontView: View {
     var customFont: CustomFont
     @State private var customText = ""
     
+    var minFontSize: CGFloat = 12.0
+    var maxFontSize: CGFloat = 56.0
+    
     var body: some View {
         NavigationView {
             VStack {
-                Text(customFont.full_name)
-                    .font(.custom("\(customFont.ttf_name)", size: 32))
-                VStack(alignment: .leading) {
-                    Text("Attributes:")
-                    Picker(selection: $fontAttribute, label: Text("Font Attribute")) {
-                        Text("Normal").tag(0)
-                        Text("Bold").tag(1)
-                        Text("Italic").tag(2)
-                    }.pickerStyle(SegmentedPickerStyle())
+                
+                
+//                VStack(alignment: .leading) {
+//                    Text("Attributes:")
+//                        .fontWeight(.ultraLight)
+//                    Picker(selection: $fontAttribute, label: Text("Font Attribute")) {
+//                        Text("Normal").tag(0)
+//                        Text("Bold").bold().tag(1)
+//                        Text("Italic").italic().tag(2)
+//                    }.pickerStyle(SegmentedPickerStyle())
+//                }
+                
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(customFont.full_name)
+                            .font(.custom("\(customFont.ttf_name)", size: 32))
+                        Text("Font Size: \(Int(fontSize))px")
+                            .fontWeight(.ultraLight)
+                        HStack {
+                            Text("\(Int(minFontSize))")
+                            Slider(value: $fontSize, in: minFontSize...maxFontSize, step: 1)
+                            Text("\(Int(maxFontSize))")
+                        }
+                    }
+                    Text((customFont.full_name.prefix(1)))
+                    .font(.custom("\(customFont.ttf_name)", size: 64))
+                    Text((customFont.full_name.prefix(1).lowercased()))
+                    .font(.custom("\(customFont.ttf_name)", size: 64))
                 }
-                VStack(alignment: .leading) {
-                    Text("Font Size:")
-                    Slider(value: $fontSize)
-                }
+                
                 
                 TextField("Your Text Here", text: $customText)
                     .font(.custom("\(customFont.ttf_name)", size: fontSize))
+                    
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-            }
-            .padding()
+                    .lineLimit(nil)
+                }
+                .padding()
         }
     }
 }
