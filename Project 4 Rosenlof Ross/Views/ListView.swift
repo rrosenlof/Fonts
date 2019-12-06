@@ -15,13 +15,18 @@ struct ListView: View {
                 NavigationLink(destination: FontView(customFont: f)) {
                     RowView(customFont: f)
                 }
-            }
+            }.navigationBarTitle("Fonts")
         }
     }
 }
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+//        ListView()
+        
+        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
+            ListView()
+                .previewDevice(PreviewDevice(rawValue: deviceName))
+        }
     }
 }

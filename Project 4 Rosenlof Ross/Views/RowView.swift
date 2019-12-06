@@ -15,6 +15,9 @@ struct RowView: View {
         HStack {
             Text(customFont.full_name)
                 .font(.custom(customFont.ttf_name, size: 18))
+            Spacer()
+            Text(customFont.category)
+                .fontWeight(.ultraLight)
         }
     }
 }
