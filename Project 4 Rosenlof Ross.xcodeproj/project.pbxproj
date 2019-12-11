@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9137C37223A147FE009D769F /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 9137C37123A147FE009D769F /* fonts.json */; };
+		9137C37423A15958009D769F /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9137C37323A15958009D769F /* LilitaOne-Regular.ttf */; };
 		91E28D802397483800E1DAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D7F2397483800E1DAA0 /* AppDelegate.swift */; };
 		91E28D822397483800E1DAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E28D812397483800E1DAA0 /* SceneDelegate.swift */; };
 		91E28D862397483900E1DAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E28D852397483900E1DAA0 /* Assets.xcassets */; };
@@ -23,7 +25,6 @@
 		91E28DB12398B40400E1DAA0 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DA92398B40300E1DAA0 /* Montserrat-Regular.ttf */; };
 		91E28DB22398B40400E1DAA0 /* IbarraRealNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAA2398B40400E1DAA0 /* IbarraRealNova-Regular.ttf */; };
 		91E28DB32398B40400E1DAA0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAB2398B40400E1DAA0 /* OpenSans-Regular.ttf */; };
-		91E28DB42398B40400E1DAA0 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAC2398B40400E1DAA0 /* NotoSans-Regular.ttf */; };
 		91E28DB52398B40400E1DAA0 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAD2398B40400E1DAA0 /* Merriweather-Regular.ttf */; };
 		91E28DB62398B40400E1DAA0 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAE2398B40400E1DAA0 /* Lobster-Regular.ttf */; };
 		91E28DB72398B40400E1DAA0 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DAF2398B40400E1DAA0 /* Oswald-Regular.ttf */; };
@@ -37,10 +38,11 @@
 		91E28DC92398B5B300E1DAA0 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DC32398B5B300E1DAA0 /* RobotoSlab-Regular.ttf */; };
 		91E28DCA2398B5B300E1DAA0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DC42398B5B300E1DAA0 /* Roboto-Regular.ttf */; };
 		91E28DCB2398B5B300E1DAA0 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DC52398B5B300E1DAA0 /* SourceSansPro-Regular.ttf */; };
-		91E28DCD2398B6AC00E1DAA0 /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 91E28DCC2398B6AC00E1DAA0 /* fonts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9137C37123A147FE009D769F /* fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fonts.json; path = ../../../fonts.json; sourceTree = "<group>"; };
+		9137C37323A15958009D769F /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
 		91E28D7C2397483800E1DAA0 /* Project 4 Rosenlof Ross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 4 Rosenlof Ross.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E28D7F2397483800E1DAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E28D812397483800E1DAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +61,6 @@
 		91E28DA92398B40300E1DAA0 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DAA2398B40400E1DAA0 /* IbarraRealNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IbarraRealNova-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DAB2398B40400E1DAA0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		91E28DAC2398B40400E1DAA0 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DAD2398B40400E1DAA0 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DAE2398B40400E1DAA0 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DAF2398B40400E1DAA0 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		91E28DC32398B5B300E1DAA0 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DC42398B5B300E1DAA0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		91E28DC52398B5B300E1DAA0 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
-		91E28DCC2398B6AC00E1DAA0 /* fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fonts.json; path = ../../../../../../Desktop/fonts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		91E28D9D239759AE00E1DAA0 /* JSON Files */ = {
 			isa = PBXGroup;
 			children = (
-				91E28DCC2398B6AC00E1DAA0 /* fonts.json */,
+				9137C37123A147FE009D769F /* fonts.json */,
 			);
 			path = "JSON Files";
 			sourceTree = "<group>";
@@ -180,10 +180,10 @@
 				91E28DA62398B3EB00E1DAA0 /* Calistoga-Regular.ttf */,
 				91E28DAA2398B40400E1DAA0 /* IbarraRealNova-Regular.ttf */,
 				91E28DA82398B40300E1DAA0 /* Lato-Regular.ttf */,
+				9137C37323A15958009D769F /* LilitaOne-Regular.ttf */,
 				91E28DAE2398B40400E1DAA0 /* Lobster-Regular.ttf */,
 				91E28DAD2398B40400E1DAA0 /* Merriweather-Regular.ttf */,
 				91E28DA92398B40300E1DAA0 /* Montserrat-Regular.ttf */,
-				91E28DAC2398B40400E1DAA0 /* NotoSans-Regular.ttf */,
 				91E28DAB2398B40400E1DAA0 /* OpenSans-Regular.ttf */,
 				91E28DAF2398B40400E1DAA0 /* Oswald-Regular.ttf */,
 			);
@@ -249,24 +249,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E28DB32398B40400E1DAA0 /* OpenSans-Regular.ttf in Resources */,
+				9137C37423A15958009D769F /* LilitaOne-Regular.ttf in Resources */,
 				91E28DB12398B40400E1DAA0 /* Montserrat-Regular.ttf in Resources */,
 				91E28DBD2398B4A900E1DAA0 /* Raleway-Regular.ttf in Resources */,
 				91E28DB72398B40400E1DAA0 /* Oswald-Regular.ttf in Resources */,
 				91E28DBE2398B4A900E1DAA0 /* Poppins-Regular.ttf in Resources */,
 				91E28DBF2398B4A900E1DAA0 /* PTSans-Regular.ttf in Resources */,
-				91E28DB42398B40400E1DAA0 /* NotoSans-Regular.ttf in Resources */,
 				91E28DC72398B5B300E1DAA0 /* Ubuntu-Regular.ttf in Resources */,
 				91E28DB92398B49600E1DAA0 /* PlayfairDisplay-Regular.ttf in Resources */,
 				91E28DC92398B5B300E1DAA0 /* RobotoSlab-Regular.ttf in Resources */,
 				91E28DCB2398B5B300E1DAA0 /* SourceSansPro-Regular.ttf in Resources */,
 				91E28DC62398B5B300E1DAA0 /* RobotoCondensed-Regular.ttf in Resources */,
-				91E28DCD2398B6AC00E1DAA0 /* fonts.json in Resources */,
 				91E28DA72398B3EB00E1DAA0 /* Calistoga-Regular.ttf in Resources */,
 				91E28D8C2397483900E1DAA0 /* LaunchScreen.storyboard in Resources */,
 				91E28DB22398B40400E1DAA0 /* IbarraRealNova-Regular.ttf in Resources */,
 				91E28DC82398B5B300E1DAA0 /* RobotoMono-Regular.ttf in Resources */,
 				91E28D892397483900E1DAA0 /* Preview Assets.xcassets in Resources */,
 				91E28DB02398B40400E1DAA0 /* Lato-Regular.ttf in Resources */,
+				9137C37223A147FE009D769F /* fonts.json in Resources */,
 				91E28DCA2398B5B300E1DAA0 /* Roboto-Regular.ttf in Resources */,
 				91E28D862397483900E1DAA0 /* Assets.xcassets in Resources */,
 				91E28DB62398B40400E1DAA0 /* Lobster-Regular.ttf in Resources */,
