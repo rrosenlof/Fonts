@@ -10,13 +10,13 @@ import SwiftUI
 
 struct FontView: View {
     @State private var fontAttribute = 0
-    @State private var fontSize: CGFloat = 16.0
+    @State private var fontSize: CGFloat = 36.0
     @State private var customText = ""
     @State  var isDark = false
     
     var customFont: CustomFont
     var minFontSize: CGFloat = 12.0
-    var maxFontSize: CGFloat = 72.0
+    var maxFontSize: CGFloat = 112.0
     
     
     var body: some View {
@@ -25,12 +25,16 @@ struct FontView: View {
                 VStack(alignment: .leading) {
                     Text(customFont.full_name)
                         .font(.custom("\(customFont.ttf_name)", size: 32))
-                    Text("Font Size: \(Int(fontSize))px")
-                        .fontWeight(.ultraLight)
                     HStack {
-                        Text("\(Int(minFontSize))")
-                        Slider(value: $fontSize, in: minFontSize...maxFontSize, step: 1)
-                        Text("\(Int(maxFontSize))")
+                        Text("Font Size:")
+                            .fontWeight(.ultraLight)
+                        Text("\(Int(fontSize))px")
+                            .fontWeight(.light)
+                    }
+                    HStack {
+//                        Text("\(Int(minFontSize))")
+                        Slider(value: $fontSize, in: minFontSize...maxFontSize, step: 2)
+//                        Text("\(Int(maxFontSize))")
                     }
                 }
                 Text((customFont.full_name.prefix(1)))

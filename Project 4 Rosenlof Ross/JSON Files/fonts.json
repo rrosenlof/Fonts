@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "full_name": "Roboto",
+    "short_name": "roboto",
+    "ttf_name": "Roboto-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 2,
+    "full_name": "Baskervville",
+    "short_name": "basekervville",
+    "ttf_name": "Baskervville-Regular",
+    "category": "Serif"
+  },
+  {
+    "id": 3,
+    "full_name": "Open Sans",
+    "short_name": "open+sans",
+    "ttf_name": "OpenSans-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 4,
+    "full_name": "Lato",
+    "short_name": "lato",
+    "ttf_name": "Lato-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 5,
+    "full_name": "Calistoga",
+    "short_name": "calistoga",
+    "ttf_name": "Calistoga-Regular",
+    "category": "Display"
+  },
+  {
+    "id": 6,
+    "full_name": "Montserrat",
+    "short_name": "montserrat",
+    "ttf_name": "Montserrat-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 7,
+    "full_name": "Roboto Condensed",
+    "short_name": "roboto+condensed",
+    "ttf_name": "RobotoCondensed-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 8,
+    "full_name": "Ibarra Real Nova",
+    "short_name": "ibarra+real+nova",
+    "ttf_name": "IbarraRealNova-Regular",
+    "category": "Serif"
+  },
+  {
+    "id": 9,
+    "full_name": "Source Sans Pro",
+    "short_name": "source+sans+pro",
+    "ttf_name": "SourceSansPro-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 10,
+    "full_name": "Oswald",
+    "short_name": "oswald",
+    "ttf_name": "Oswald-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 11,
+    "full_name": "Raleway",
+    "short_name": "raleway",
+    "ttf_name": "Raleway-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 12,
+    "full_name": "Roboto Mono",
+    "short_name": "roboto+mono",
+    "ttf_name": "RobotoMono-Regular",
+    "category": "Monospace"
+  },
+  {
+    "id": 13,
+    "full_name": "Poppins",
+    "short_name": "poppins",
+    "ttf_name": "Poppins-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 14,
+    "full_name": "Merriweather",
+    "short_name": "merriweather",
+    "ttf_name": "Merriweather-Regular",
+    "category": "Serif"
+  },
+  {
+    "id": 15,
+    "full_name": "Roboto Slab",
+    "short_name": "roboto+slab",
+    "ttf_name": "RobotoSlab-Regular",
+    "category": "Serif"
+  },
+  {
+    "id": 17,
+    "full_name": "Lobster",
+    "short_name": "lobster",
+    "ttf_name": "Lobster-Regular",
+    "category": "Display"
+  },
+  {
+    "id": 18,
+    "full_name": "PT Sans",
+    "short_name": "pt+sans",
+    "ttf_name": "PTSans-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 19,
+    "full_name": "Ubuntu",
+    "short_name": "ubuntu",
+    "ttf_name": "Ubuntu-Regular",
+    "category": "Sans Serif"
+  },
+  {
+    "id": 20,
+    "full_name": "Playfair Display",
+    "short_name": "playfair+display",
+    "ttf_name": "PlayfairDisplay-Regular",
+    "category": "Serif"
+  },
+ 
+]
+
